@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">IndividualProject2</string>
+    <string name="description">Quiz Time</string>
+    <string name="Welcome">Welcome</string>
+    <string name="EmailAddressText">Email</string>
+    <string name="PasswordText">Password</string>
+    <string name="loginTVBTN">Login</string>
+    <string name="registerTVBTN">Register</string>
+    <string name="Register">Register</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="DOB">Date of Birth</string>
+    <string name="Questions">Questions</string>
+    <string name="Option1">option 1</string>
+    <string name="Option2">option 2</string>
+    <string name="Option3">option 3</string>
+    <string name="Option4">option 4</string>
+    <string name="Confirm">confirm</string>
+</resources>

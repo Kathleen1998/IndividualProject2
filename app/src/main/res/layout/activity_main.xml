@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="@string/Welcome"
+        android:textSize="50sp"
+        android:textColor="@color/black"/>
+
+
+
+    <EditText
+        android:layout_width="202dp"
+        android:layout_height="57dp"
+        android:id ="@+id/emailAddressET"
+        android:hint="@string/EmailAddressText"
+        android:autofillHints="emailAddress"
+        android:inputType="textEmailAddress|textEmailSubject"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"/>
+
+    <EditText
+        android:layout_width="202dp"
+        android:layout_height="57dp"
+        android:id ="@+id/PasswordET"
+        android:hint="@string/PasswordText"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PasswordET"
+        android:layout_alignStart="@id/PasswordET"
+
+        android:layout_marginStart="0dp"
+
+        android:layout_marginTop="56dp"
+        android:text="@string/loginTVBTN" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/loginBtn"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toEndOf="@id/loginBtn"
+        android:text="@string/registerTVBTN" />
+</RelativeLayout>
